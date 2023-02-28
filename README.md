@@ -6,7 +6,11 @@
 
 ## How it works
 
-How it works
+This can be used to find out the next holiday in a given country.
+The country codes are based on the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) standard.
+
+It uses the [nager.date](https://date.nager.at/) to get the data.
+I may switch to python package [holidays](https://pypi.org/project/holidays/) in the future.
 
 ## Setup
 
