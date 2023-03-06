@@ -7,7 +7,7 @@ import requests
 from holiday import Holiday
 
 YEAR_NOW = datetime.now().year
-API_URL = "https://date.nager.at/api/v2/PublicHolidays/"
+API_URL = "https://date.nager.at/api/v3/PublicHolidays/"
 
 
 def get_holidays(country_code: str) -> list[Holiday]:
